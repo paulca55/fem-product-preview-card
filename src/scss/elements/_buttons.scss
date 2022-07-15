@@ -1,0 +1,46 @@
+@use 'variables' as v;
+
+button,
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: v.$color-deep-aquamarine;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  border-radius: 0.6em;
+  padding: 0.9em 1.1em;
+  position: relative;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+
+  &:hover {
+    background: v.$color-deep-aquamarine-darker;
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+    background: v.$color-deep-aquamarine-darker;
+  }
+
+  &:active {
+    top: 1px;
+  }
+}
+
+.button__icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.8em;
+  width: 1.1em;
+}
+
+.button__icon svg {
+  width: 100%;
+  height: auto;
+}
