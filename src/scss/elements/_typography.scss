@@ -1,0 +1,28 @@
+@use 'variables' as v;
+
+body {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: v.$primary-font;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 3rem;
+  line-height: 1.1;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem 0 0;
+}
