@@ -1,6 +1,9 @@
 @use 'variables' as v;
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: v.$color-cream;
   padding: 28px 16px;
 }
