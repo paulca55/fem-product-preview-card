@@ -17,11 +17,14 @@
   </head>
   <body>
     <div class="card">
-      <img
-        class="card__image"
-        src="./images/image-product-desktop.jpg"
-        alt="Bottle of Gabrielle by CHANEL laid between some decorative leaves."
-      />
+      <picture>
+        <source srcset="./images/image-product-desktop.jpg" media="(min-width: 90em)" />
+        <img
+          class="card__image"
+          src="./images/image-product-mobile.jpg"
+          alt="Bottle of Gabrielle by CHANEL laid between some decorative leaves."
+        />
+      </picture>
       <div class="card__content">
         <span class="card__overline">Perfume</span>
         <h1 class="card__heading">Gabrielle Essence Eau De Parfum</h1>
