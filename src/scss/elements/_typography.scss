@@ -4,11 +4,11 @@ body {
   overflow-wrap: break-word;
   word-wrap: break-word;
   text-rendering: optimizeSpeed;
-  line-height: 1.65;
+  line-height: 1.62;
   font-family: v.$body-font;
   font-size: 0.875rem;
   font-weight: 500;
-  color: v.$color-gunmetal;
+  color: v.$color-aurometal-saurus;
 }
 
 /* Headings */
@@ -19,9 +19,10 @@ h4,
 h5,
 h6 {
   font-family: v.$heading-font;
+  color: v.$color-gunmetal;
   font-weight: 700;
   margin-top: 0.7rem;
-  line-height: 1.1;
+  line-height: 1;
   font-size: 2rem;
 }
 
