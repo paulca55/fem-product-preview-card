@@ -1,4 +1,4 @@
-@use 'variables' as v;
+@use '/src/scss/abstracts/variables' as v;
 
 .card {
   background-color: v.$color-white;
@@ -14,11 +14,11 @@
 
 .card__image {
   height: 240px;
-  background-image: url('../images/image-product-mobile.jpg');
+  background-image: url('/src/images/image-product-mobile.jpg');
   background-size: cover;
 
   @media (min-width: v.$bp-desktop) {
-    background-image: url('../images/image-product-desktop.jpg');
+    background-image: url('/src/images/image-product-desktop.jpg');
     height: 100%;
   }
 }
